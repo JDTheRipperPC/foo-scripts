@@ -1,0 +1,1169 @@
+IP: 5.253.47.126
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:05 GMT
+Server: Apache
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 95.160.77.17
+Data: HTTP/1.1 400 Bad Request
+Date: Mon, 08 Jul 2019 03:27:11 GMT
+Server: Apache
+Content-Length: 362
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 154.91.30.228
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:25:18 GMT
+Server: Apache
+Content-Length: 272
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 122.166.46.28
+Data: HTTP/1.1 302 Found
+Date: Mon, 08 Jul 2019 03:30:23 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Location: https://122.166.46.28//
+Content-Length: 285
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 104.203.63.140
+Data: HTTP/1.1 301 Moved Permanently
+Date: Sun, 07 Jul 2019 12:31:41 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.36
+Location: http://www.104.203.63.140/
+Vary: Accept-Encoding
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 45.15.164.246
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:25:20 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 45.76.187.17
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:00 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: PHPSESSID=bgm85gpnanfnqipcc89c9ktsl1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 95.148.3.28
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="b16d6bcf996e983389fb526ea90bc3a6", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 182.253.115.123
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:48 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Set-Cookie: PHPSESSID=7uhtjg588csvlfsj32q49i5o82; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 47.112.1.42
+Data: HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"7446-1350374686000"
+Last-Modified: Tue, 16 Oct 2012 08:04:46 GMT
+Content-Type: text/html
+Content-Length: 7446
+Date: Mon, 08 Jul 2019 03:29:07 GMT
+
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+    <title>Apache Tomcat</title>
+    <style type="text/css">
+    /*<![CDATA[*/
+      body {
+          color: #000000;
+          background-color: #FFFFFF;
+	  font-family: Arial, "Times New Roman", Times, serif;
+          margin: 10px 0px;
+      }
+
+    img {
+       border: none;
+    }
+    
+    a:link, a:visited {
+        color: blue
+    }
+
+    th {
+        font-family: Verdana, "Times New Roman", Times, serif;
+        font-size: 110%;
+        font-weight: normal;
+        font-style: italic;
+        background: #D2A41C;
+        text-align: left;
+    }
+
+    td {
+        color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    td.menu {
+        background: #FFDC75;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .code {
+        color: #000000;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 110%;
+        margin-left: 2.5em;
+    }
+    
+     #banner {
+        margin-bottom: 12px;
+     }
+
+     p#congrats {
+         margin-top: 0;
+         font-weight: bold;
+         text-align: center;
+     }
+
+     p#footer {
+         text-align: right;
+         font-size: 80%;
+     }
+     /*]]>*/
+   </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<table id="banner" width="100%">
+    <tr>
+      <td align="left" style="width:130px">
+      <a href="http://tomcat.apache.org/">
+        <img src="tomcat.gif" height="92" width="130" alt="The Mighty Tomcat - MEOW!"/>
+      </a>
+      </td>
+      <td align="left" valign="top"><b>Apache Tomcat</b></td>
+      <td align="right">
+        <a href="http://www.apache.org/">
+	  <img src="asf-logo-wide.gif" height="51" width="537" alt="The Apache Software Foundation"/>
+	</a>
+       </td>
+     </tr>
+</table>
+
+<table>
+    <tr>
+
+        <!-- Table of Contents -->
+        <td valign="top">
+            <table width="100%" border="1" cellspacing="0" cellpadding="3">
+                <tr>
+		  <th>Administration</th>
+                </tr>
+                <tr>
+		  <td class="menu">
+		    <a href="/manager/status">Status</a><br/>
+                    <a href="/manager/html">Tomcat&nbsp;Manager</a><br/>
+                    &nbsp;
+                  </td>
+                </tr>
+            </table>
+
+	    <br />
+            <table width="100%" border="1" cellspacing="0" cellpadding="3">
+                <tr>
+		  <th>Documentation</th>
+                </tr>
+                <tr>
+                  <td class="menu">
+                    <a href="RELEASE-NOTES.txt">Release&nbsp;Notes</a><br/>
+                    <a href="/docs/changelog.html">Change&nbsp;Log</a><br/>
+                    <a href="/docs">Tomcat&nbsp;Documentation</a><br/>                        &nbsp;
+                    &nbsp;
+		    </td>
+                </tr>
+            </table>
+	    
+            <br/>
+            <table width="100%" border="1" cellspacing="0" cellpadding="3">
+                <tr>
+                  <th>Tomcat Online</th>
+                </tr>
+                <tr>
+                  <td class="menu">
+                    <a href="http://tomcat.apache.org/">Home&nbsp;Page</a><br/>
+		    <a href="http://tomcat.apache.org/faq/">FAQ</a><br/>
+                    <a href="http://tomcat.apache.org/bugreport.html">Bug&nbsp;Database</a><br/>
+                    <a href="http://mail-archives.apache.org/mod_mbox/tomcat-users/">Users&nbsp;Mailing&nbsp;List</a><br/>
+                    <a href="http://mail-archives.apache.org/mod_mbox/tomcat-dev/">Developers&nbsp;Mailing&nbsp;List</a><br/>
+                    <a href="irc://irc.freenode.net/#tomcat">IRC</a><br/>
+		    &nbsp;
+                  </td>
+                </tr>
+            </table>
+	    
+            <br/>
+            <table width="100%" border="1" cellspacing="0" cellpadding="3">
+                <tr>
+		  <th>Miscellaneous</th>
+                </tr>
+                <tr>
+                  <td class="menu">
+                    <a href="
+IP: 195.67.24.195
+Data: HTTP/1.1 400 Bad Request\r\nDate: Mon, 08 Jul 2019 03:30:08 GMT\r\nServer: Apache\r\nContent-Length: 226\r\nConnection: close\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request that this server could not understand.<br />\n</p>\n</body></html>\n
+IP: 62.210.109.229
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:03 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 671
+Content-Type: text/html;charset=UTF-8
+
+
+IP: 213.181.202.94
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:27:37 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.3.24-1~dotdeb.0
+Set-Cookie: PHPSESSID=4ece8b42bd86f739c3e67b0ee67950f3; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 4665
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 45.39.251.138
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:27:55 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 104.202.162.100
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:12 GMT
+Server: Apache
+Set-Cookie: security_session_verify=3c8c8281e1da9d6f7dbe954913625378; expires=Thu, 11-Jul-19 11:30:12 GMT; path=/; HttpOnly
+Set-Cookie: security_session_verify=3c8c8281e1da9d6f7dbe954913625378; expires=Thu, 11-Jul-19 11:30:12 GMT; path=/; HttpOnly
+Upgrade: h2
+Connection: Upgrade
+Last-Modified: Sat, 09 Feb 2019 15:47:25 GMT
+ETag: "46e-58177fdf990de"
+Accept-Ranges: bytes
+Content-Length: 1134
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+IP: 47.105.83.204
+Data: HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=3A4BC45E57E15735A41820891AFE03B4; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2343
+Date: Mon, 08 Jul 2019 03:29:58 GMT
+
+
+IP: 216.118.232.18
+Data: HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=7B6E410955C81FBFC6CC7FFBC1B7D600; Path=/; HttpOnly
+Content-Type: text/html;charset=utf-8
+Content-Length: 311
+Date: Mon, 08 Jul 2019 03:30:11 GMT
+
+
+IP: 141.101.231.249
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:09 GMT
+Server: Apache/2.4.35 (Win64)
+Content-Length: 201
+Content-Type: text/html;charset=UTF-8
+
+
+IP: 95.147.253.84
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="b3808e267104c0ffe2cf9c759876212b", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 218.62.14.86
+Data: HTTP/1.1 400 No Host matches server name 218.62.14.86
+Transfer-Encoding: chunked
+Date: Mon, 08 Jul 2019 03:33:34 GMT
+Server: Apache-Coyote/1.1
+Connection: close
+
+
+IP: 60.205.20.186
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:30:06 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.17
+Vary: User-Agent,Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+IP: 77.185.18.214
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="26c8a902899d4e53c0a5a477d7bc2b3b", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 118.190.50.151
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:15 GMT
+Server: Apache/2.2.22 (Win32) PHP/5.3.29
+X-Powered-By: PHP/5.3.29
+Set-Cookie: PHPSESSID=8d08dd683f5177bd948bdd5aded84d75; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: Q__refer=%2F; path=/
+Set-Cookie: asset_search_url=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Set-Cookie: Q_uid=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Set-Cookie: Q_autoauth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Set-Cookie: tinyscrollbarLength=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Set-Cookie: tinyscrollbarHeight=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Set-Cookie: thumbTop=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Set-Cookie: curSelectGroupId=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 45.15.142.53
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:28:31 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 73.209.140.149
+Data: HTTP/1.1 400 Bad Request
+Date: Mon, 08 Jul 2019 03:25:32 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 425
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 23.88.202.52
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:28:46 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.36
+Status: 404 Not Found
+Vary: Accept-Encoding
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 217.21.210.132
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:30:22 GMT
+Server: Apache
+Content-Length: 198
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 5.149.53.15
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:26:21 GMT
+Server: Apache
+X-Frame-Options: sameorigin
+Content-Length: 209
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 107.23.9.181
+Data: HTTP/1.1 302 Found
+Date: Mon, 08 Jul 2019 03:30:18 GMT
+Content-Length: 0
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=72C62CD3C5363EDE3616FD1AB37AB1B7; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: LP_TARGET_URL=https%3A%2F%2Fmydev1.tc.columbia.edu%2F; Expires=Mon, 08-Jul-2019 03:35:18 GMT; Path=/
+Location: https://logintest.tc.columbia.edu:443/idp/profile/cas/login?service=https%3A%2F%2F107.23.9.181%2Fc%2Fportal%2Flogin
+
+
+IP: 23.225.88.150
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:27:58 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 153.120.5.64
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:30:19 GMT
+Server: Apache/2.2.22 (Debian)
+Vary: Accept-Encoding
+Content-Length: 280
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 2.28.183.133
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="203dcf0fef728f0c688b9109dabbbc2a", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 86.203.142.204
+Data: HTTP/1.1 302 Moved Temporarily
+Date: Mon, 08 Jul 2019 03:30:02 GMT
+Server: Apache
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Location: http://86.203.142.204:5000/
+Content-Length: 0
+Content-Type: text/plain
+
+
+IP: 86.203.142.204
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:06 GMT
+Server: Apache
+Cache-control: no-store
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset="UTF-8"
+
+
+IP: 24.89.243.148
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:27:12 GMT
+Server: Apache
+Content-Length: 202
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 38.131.101.103
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:30:13 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 126
+Content-Type: text/html; charset=utf-8
+
+<br />
+<b>Notice</b>:  Undefined index: HTTP_USER_AGENT in <b>/var/www/ShadowCopy2.0/www/init.php</b> on line <b>21</b><br />
+
+IP: 157.122.62.195
+Data: HTTP/1.1 200 OK
+Date: Thu, 07 Dec 2017 01:18:09 GMT
+Server: Apache/2.4.6 (CentOS)
+Last-Modified: Thu, 07 Dec 2017 01:17:37 GMT
+ETag: "2b1-55fb5d562c37c"
+Accept-Ranges: bytes
+Content-Length: 689
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 93.107.147.1
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:26:41 GMT
+Server: Apache
+Content-Length: 202
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 202.43.74.146
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:28:10 GMT
+Server: Apache/2.4.10 (Ubuntu)
+Last-Modified: Fri, 18 Aug 2017 01:22:09 GMT
+ETag: "2c39-556fcf538ef96"
+Accept-Ranges: bytes
+Content-Length: 11321
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+IP: 172.247.129.83
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:27:10 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 31.50.216.44
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="80128b47cbf3405755169344dc9600a7", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 23.94.121.230
+Data: HTTP/1.1 301 Moved Permanently
+Date: Mon, 08 Jul 2019 03:30:17 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://www.bisecthosting.com/clients/link.php?id=14
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 198.11.180.45
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:09 GMT
+Server: Apache/2.4.38 (Unix) OpenSSL/1.1.0j PHP/7.2.16
+X-Powered-By: PHP/7.2.16
+Link: <http://198.11.180.45/wp-json/>; rel="https://api.w.org/"
+Link: <https://wp.me/7Gxfb>; rel=shortlink
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 23.244.25.246
+Data: HTTP/1.1 301 Moved Permanently
+Date: Sun, 07 Jul 2019 19:20:56 GMT
+Server: Apache
+X-Powered-By: PHP/5.5.38
+Location: http://www.23.244.25.246/
+Vary: Accept-Encoding
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 139.81.232.147
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 09:27:40 GMT
+Server: Apache
+Content-Length: 273
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 86.165.240.132
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="ba7fd4398f6ce2ee4ff0b40c0bdd6f41", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 104.203.63.173
+Data: HTTP/1.1 301 Moved Permanently
+Date: Sun, 07 Jul 2019 12:29:18 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.36
+Location: http://www.104.203.63.173/
+Vary: Accept-Encoding
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 107.151.102.188
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:29:36 GMT
+Server: Apache
+Content-Length: 274
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 77.78.107.45
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:15 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Last-Modified: Thu, 31 Aug 2017 07:51:38 GMT
+ETag: "e69-55807ea10800f"
+Accept-Ranges: bytes
+Content-Length: 3689
+Content-Type: text/html
+
+
+IP: 90.94.230.233
+Data: HTTP/1.1 200 OK
+Date: Mon, 26 Nov 2018 15:39:29 GMT
+Server: Apache
+Last-Modified: Thu, 03 May 2018 04:10:22 GMT
+ETag: "e1-56b4561d7c780"
+Accept-Ranges: bytes
+Content-Length: 225
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Language: en
+
+
+IP: 185.212.68.142
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:01 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 2661
+Content-Type: text/html; charset=utf-8
+
+
+IP: 23.224.119.34
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:28:31 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 120.79.211.71
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:27:20 GMT
+Server: Apache
+Content-Length: 272
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 213.180.52.11
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:01 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.3.24-1~dotdeb.0
+Set-Cookie: PHPSESSID=fd66f01016a4ad762cf8adb1f84af661; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 3656
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 81.177.141.41
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:30:18 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Length: 640
+Content-Type: text/html
+
+
+IP: 52.53.110.166
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:13 GMT
+Server: Apache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+IP: 77.183.47.182
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="5cc165c34e586448092bd901fc77a57a", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 167.71.184.15
+Data: HTTP/1.1 301 Moved Permanently
+Date: Mon, 08 Jul 2019 03:30:06 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Location: https://blog.possoprogramar.com.br/
+Content-Length: 335
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 198.16.45.103
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:26:11 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 192.80.128.176
+Data: HTTP/1.1 301 Moved Permanently
+Date: Mon, 08 Jul 2019 03:29:53 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.40
+Location: http://www.192.80.128.176/
+Vary: Accept-Encoding
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 95.150.68.58
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="b04d23c7500dc14c48591c9353cade56", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 139.81.224.13
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:39 GMT
+Server: Apache/2.4.27 (Win32) PHP/5.4.45
+X-Powered-By: PHP/5.4.45
+Set-Cookie: PHPSESSID=la0lk4uslq3p19o0f8sdu6e2l5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+IP: 172.247.103.14
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:28:01 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 185.212.68.80
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:26:23 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 2656
+Content-Type: text/html; charset=utf-8
+
+
+IP: 195.46.238.140
+Data: HTTP/1.1 400 Bad Request
+Date: Mon, 08 Jul 2019 03:25:15 GMT
+Server: Apache
+Expires: Thursday, 01-Jan-1970 00:00:01 GMT
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=0; includeSubDomains;
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' wss:;
+X-Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' wss:;
+X-Webkit-CSP: default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' wss:;
+Connection: close
+Content-Type: text/html; charset=utf-8
+
+
+IP: 172.253.21.64
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:46 GMT
+Server: Apache/2.4.25 (Debian)
+Last-Modified: Tue, 05 Mar 2019 21:20:10 GMT
+ETag: "8-5835f7027d965"
+Accept-Ranges: bytes
+Content-Length: 8
+Content-Type: text/html
+
+
+IP: 50.87.109.156
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:05 GMT
+Server: Apache
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+IP: 95.144.13.74
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="6007d07762fac039806babfa33a28efe", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 35.161.7.31
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:05 GMT
+Server: Apache
+X-Powered-By: PHP/7.2.16
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie,Accept-Encoding
+X-Mod-Pagespeed: 1.13.35.2-0
+Cache-Control: max-age=0, no-cache, s-maxage=10
+Content-Length: 14953
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 154.213.14.71
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:29:34 GMT
+Server: Apache/2.4.27 (Win32) PHP/5.4.45
+X-Powered-By: PHP/5.4.45
+Set-Cookie: PHPSESSID=l6cr1s902fq4kblqatokkf0op5; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+IP: 173.236.229.152
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:09 GMT
+Server: Apache
+Upgrade: h2
+Connection: Upgrade
+Last-Modified: Tue, 02 Jul 2019 17:07:40 GMT
+ETag: "39e-58cb5c83d8f00"
+Accept-Ranges: bytes
+Content-Length: 926
+Content-Type: text/html
+
+
+IP: 91.164.212.143
+Data: HTTP/1.1 400 Bad Request
+Date: Mon, 08 Jul 2019 03:28:26 GMT
+Server: Apache
+Content-Length: 362
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 5.101.116.27
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:25:17 GMT
+Server: Apache/2.4.34 (Ubuntu)
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, private
+Set-Cookie: october_session=eyJpdiI6Ik1odHpQMW5RbHFnQzZIbkZ6RW9oUUE9PSIsInZhbHVlIjoiRVVcL0FXUmhiREEyckFBME9pNHYrb0xhQnc1bGFFekpmUXJySG4rK1FiK2prdkxENkJITWlZK0tjbGF0STRnTktTYmVtR3ZlbjdmZXZhZFBrUGUybEhBPT0iLCJtYWMiOiI4Y2U0MjhlNWY4NjNiNzc3NmEyYTViYzFmMjhjMGY4MjY4ZTRkNWIxOWM3MWI4Mjg4OTM3ODkzMzE4MjIyN2VhIn0%3D; expires=Mon, 08-Jul-2019 05:25:18 GMT; Max-Age=7200; path=/; httponly
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 107.174.115.122
+Data: HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+Location: https://www.107.174.115.122
+Content-Language: en-US
+Content-Length: 0
+Date: Mon, 08 Jul 2019 03:30:06 GMT
+
+
+IP: 51.79.40.172
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:28:58 GMT
+Server: Apache
+Last-Modified: Mon, 25 Jun 2018 22:02:51 GMT
+ETag: "e62-56f7e8af0dfa2"
+Accept-Ranges: bytes
+Content-Length: 3682
+Content-Type: text/html
+
+
+IP: 77.6.24.86
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="ceacf3be983be6781bf9f5c9743b632b", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 34.250.67.135
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:28:31 GMT
+Content-Length: 0
+Server: Apache-AdvancedExtranetServer/2.0.53 (Mandrakelinux/PREFORK-9mdk) mod_ssl/2.0.53 OpenSSL/0.9.7e PHP/4.3.10 mod_perl/1.999.21 Perl/v5.8.6
+X-Powered-By: Servlet/2.4
+
+
+IP: 77.182.238.25
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="d9a05f43a21c618a3ed5d358db96c7e7", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 119.245.205.187
+Data: HTTP/1.1 401 Authorization Required
+Date: Mon, 08 Jul 2019 03:30:08 GMT
+Server: Apache
+WWW-Authenticate: Basic realm="(WebDAV for admin)"
+Content-Length: 401
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 31.127.50.131
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="63376185648c1f117553798297220684", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 185.142.140.76
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:29:22 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 185.67.240.36
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:30:12 GMT
+Server: Apache
+Content-Length: 198
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 172.247.103.178
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:26:54 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 95.145.81.112
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="0e888465cbb4ce370db7c9797e36b571", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 62.210.48.195
+Data: HTTP/1.1 200 OK
+Date: Mon, 20 Nov 2017 20:37:14 GMT
+Server: Apache/2.4.10 (Debian)
+Last-Modified: Mon, 14 Aug 2017 10:37:10 GMT
+ETag: "29cd-556b43ec205e9"
+Accept-Ranges: bytes
+Content-Length: 10701
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+IP: 172.247.129.189
+Data: HTTP/1.1 404 Not Found
+Date: Mon, 08 Jul 2019 03:27:06 GMT
+Server: Apache/2.4.29 (Ubuntu)
+status: 404 Not Found
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+
+
+IP: 39.104.108.37
+Data: HTTP/1.1 302 Found
+Date: Mon, 08 Jul 2019 03:30:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: https://39.104.108.37/
+Content-Length: 285
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 59.126.4.27
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:30:08 GMT
+Server: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30
+Content-Length: 209
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 176.111.16.38
+Data: HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Length: 1157
+Date: Mon, 08 Jul 2019 03:21:31 GMT
+
+
+IP: 77.193.28.183
+Data: HTTP/1.1 400 Bad Request
+Date: Mon, 08 Jul 2019 03:26:16 GMT
+Server: Apache
+Content-Length: 481
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 37.187.121.205
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:04 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Last-Modified: Fri, 03 Feb 2017 07:41:55 GMT
+ETag: "1a2-5479b6a750339"
+Accept-Ranges: bytes
+Content-Length: 418
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+IP: 84.123.247.115
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:38:02 GMT
+Server: Apache
+X-Powered-By: PHP/5.6.38
+Upgrade: h2
+Connection: Upgrade
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+
+IP: 194.180.179.44
+Data: HTTP/1.1 416 Requested Range Not Satisfiable
+Date: Mon, 08 Jul 2019 03:29:15 GMT
+Server: Apache
+Content-Length: 0
+Connection: close
+
+
+IP: 2.31.93.142
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="5890964c68c2889bd12c376694842ebc", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 121.199.75.56
+Data: HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=ISO-8859-1
+Transfer-Encoding: chunked
+Date: Mon, 08 Jul 2019 03:26:37 GMT
+
+
+IP: 31.127.160.225
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="d9021c569ba19754f1fc63596068c2ca", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 121.114.49.74
+Data: HTTP/1.1 200 OK
+Date: Mon, 08 Jul 2019 03:30:08 GMT
+Server: Apache/2.2.14 (Unix) mod_ssl/2.2.14 OpenSSL/1.0.2h mod_perl/2.0.4 Perl/v5.10.0
+Last-Modified: Tue, 06 Jun 2017 03:57:00 GMT
+ETag: "5c67e-209-551429c911b00"
+Accept-Ranges: bytes
+Content-Length: 521
+Connection: close
+Content-Type: text/html
+
+<html>
+<head>
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+  <script type="text/javascript" src="./st/js/sencha-touch-1.1.0/sencha-touch.js"></script>
+  <script type="text/javascript">
+	if ( Ext.is.iOS || Ext.is.Android ) {
+	  location = "/st/" + location.hash;
+	} else {
+	  location = "/ui/" + location.hash;
+	}
+  </script>
+
+</head>
+<body>
+  <noscript>
+    <img src="enable-javascript.png" />
+  </noscript>
+</body>
+</html>
+
+IP: 73.75.176.114
+Data: HTTP/1.1 403 Forbidden
+Date: Mon, 08 Jul 2019 03:28:49 GMT
+Server: Apache
+X-Frame-Options: sameorigin
+Content-Length: 209
+Content-Type: text/html; charset=iso-8859-1
+
+
+IP: 86.160.155.200
+Data: HTTP/1.1 401 Unauthorized
+Server: Apache
+Connection: Close
+Content-type: text/html
+WWW-Authenticate: Digest realm="DSLForum CPE Management", algorithm=MD5, qop=auth, stale=FALSE, nonce="c76e4084a705c19bdb521d7401f8fb08", opaque="5ccc069c403ebaf9f0171e9517f40e41"
+
+
+IP: 46.243.0.38
+Data: HTTP/1.1 400 Bad Request\r\nDate: Mon, 08 Jul 2019 03:30:12 GMT\r\nServer: Apache\r\nContent-Length: 226\r\nConnection: close\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request that this server could not understand.<br />\n</p>\n</body></html>\n
