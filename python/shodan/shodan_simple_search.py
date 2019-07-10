@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-import argparse
-
-from os import getenv
-from collections import namedtuple
-from sys import exit
 
 import shodan
 from shodan.cli.helpers import get_api_key
@@ -13,12 +8,11 @@ def simple_search():
     try:
         ShodanAPI = shodan.Shodan(get_api_key())
         results = ShodanAPI.search('apache')
-        with open('search_apache.txt', 'w') as f:
-            for result in results.get('matches'):
-                f.write('IP: {ip}\nData: {data}\n'.format(
-                    ip=result.get('ip_str'),
-                    data=result.get('data')
-                ))
+        for result in results.get('matches'):
+            print('IP: {ip}\nData: {data}\n'.format(
+                ip=result.get('ip_str'),
+                data=result.get('data')
+            ))
     except shodan.APIError as err:
         print('Error: {}'.format(err))
 
